@@ -90,9 +90,9 @@ function LiveFeed() {
             </div>
             <div style={{ flex: 1, minWidth: 0 }}>
               <div style={{ fontSize: "11px", fontWeight: 600, color: "rgba(255,255,255,0.8)", marginBottom: "1px" }}>{item.text}</div>
-              <div style={{ fontSize: "9px", color: "rgba(255,255,255,0.35)", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{item.sub}</div>
+              <div style={{ fontSize: "9px", color: "rgba(255,255,255,0.35)", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{item.time}</div>
             </div>
-            <div style={{ fontSize: "11px", fontWeight: 700, color: item.color, flexShrink: 0 }}>{item.value}</div>
+            <div style={{ fontSize: "11px", fontWeight: 700, color: item.color, flexShrink: 0 }}>{item.time}</div>
           </motion.div>
         );
       })}
