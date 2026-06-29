@@ -85,7 +85,7 @@ function LiveFeed() {
             transition={{ duration: 0.3, delay: i * 0.05 }}
             style={{ display: "flex", alignItems: "center", gap: "10px", padding: "8px 10px", background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.06)", borderRadius: "8px" }}
           >
-            <div style={{ width: "28px", height: "28px", borderRadius: "7px", background: item.bg, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+            <div style={{ width: "28px", height: "28px", borderRadius: "7px", background: item.color + '22', display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
               <span style={{ fontSize: "13px", fontWeight: 700, color: item.color }}>{iconChar}</span>
             </div>
             <div style={{ flex: 1, minWidth: 0 }}>
