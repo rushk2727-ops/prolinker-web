@@ -135,7 +135,7 @@ export default function Categories() {
 
                 {/* Name */}
                 <div style={{ fontFamily: "var(--font-geist-sans)", fontSize: "15px", fontWeight: 700, color: "#0f1f3d", marginBottom: "5px", letterSpacing: "-0.02em" }}>
-                  {cat.name}
+                  {cat.label}
                 </div>
 
                 {/* Desc */}
