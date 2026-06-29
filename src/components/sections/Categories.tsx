@@ -140,7 +140,7 @@ export default function Categories() {
 
                 {/* Desc */}
                 <div style={{ fontSize: "11px", color: "#8a97ad", marginBottom: "14px", lineHeight: 1.5 }}>
-                  {cat.desc}
+                  ""
                 </div>
 
                 {/* Count */}
